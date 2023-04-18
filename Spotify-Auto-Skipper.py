@@ -43,7 +43,6 @@ def check_song():
                     sp.seek_track(skip_time * 1000)
                     break
             else:
-                print("Currently playing", track, "by", artist, "which is not", song_name)
     time.sleep(1)
 
 while True:
